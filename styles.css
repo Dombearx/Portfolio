@@ -1,0 +1,36 @@
+.tile {
+    background-color: #52565A;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #000000;
+  }
+
+  .tile-text {
+    margin-left: 10px;
+  }
+  
+  .tile a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: #333333;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .tile {
+    /* Other CSS styles for the tile */
+    transition: transform 0.2s;
+  }
+  
+  .tile:hover {
+    transform: scale(1.1);
+  }
+  
+  
